@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Phyrmularics - формулы тут</title>
+</head>
+<body>
+    <div id="menu">
+        <img src="../logo.png"/>
+        <button class="mb" id="main-butt" onclick="window.location.href='../index.html'">Главная</button>
+        <button class="mb" id="list-butt" onclick="window.location.href='../list.html'">Список формул</button>
+        <button class="mb" id="about-butt" onclick="window.location.href='../about.html'">О сайте</button>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <div id="main">
+        <div class="h-block"><div class="blocks">Мощность P &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="power"> (В СИ - Вт)
+            <select id="power-izm">
+                <option value="mevt">мегаватт(а) (МВт)</option>
+                <option value="kvt">киловатт(a) (кВт)</option>
+                <option value="vt" autofocus>ватт(а) (Вт)</option>
+                <option value="mivt">милливатт(а) (мВт)</option>
+            </select></div>&nbsp;&nbsp;
+        <button id="power_del" class="blocks">Очистить</button></div>
+        <br>
+        <div class="h-block"><div class="blocks">Работа A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="work">
+            <select id="work-izm">
+                <option value="mej">мегаджоул(ь, я, ей) (МДж)</option>
+                <option value="kj">килоджоул(ь, я, ей) (кДж)</option>
+                <option value="j" autofocus>джоул(ь, я, ей) (Дж)</option>
+                <option value="mij">миллиджоул(ь, я, ей) (мДж)</option>
+            </select> (В СИ - Дж)</div>&nbsp;&nbsp;&nbsp;<button id="work_del" class="blocks">Очистить</button><br></div>
+        <br>
+        <div class="h-block"><div class="blocks">Время t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="time">
+            <select id="time-izm">
+                <option value="d">день(дня, дней)</option>
+                <option value="h">час(а, ов)</option>
+                <option value="m">минут(а, ы)</option>
+                <option value="s" autofocus>секунд(а, ы) (с)</option>
+            </select>(В СИ - с)</div>&nbsp;&nbsp;&nbsp;<button id="time_del" class="blocks">Очистить</button></div>
+        <br>
+        <div class="h-block"><div class="blocks"><input type="checkbox" id="si"> Вывод в СИ</div>&nbsp;&nbsp;&nbsp;<button id="results" class="blocks">Посчитать</button></div>
+        
+        
+        <script src="../scripts/power.js"></script>
+    </div>
+</body>
+</html>

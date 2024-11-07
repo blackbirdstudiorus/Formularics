@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Phyrmularics - формулы тут</title>
+</head>
+<body>
+    <div id="menu">
+        <img src="../logo.png"/>
+        <button id="main-butt" class="mb" onclick="window.location.href='../index.html'">Главная</button>
+        <button id="list-butt" class="mb" onclick="window.location.href='../list.html'">Список формул</button>
+        <button class="mb" id="about-butt" onclick="window.location.href='../about.html'">О сайте</button>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <div id="main">
+        <div class="h-block"><div class="blocks">
+            Частота ν &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input type="text" id="freq"> 
+            <select id="freq_izm">
+                <option value="mehz">мегагерц(а) (МГц)</option>
+                <option value="khz">килогерц(a) (кГц)</option>
+                <option value="hz" autofocus="true">герц(а) (Гц)</option>
+                <option value="mihz">миллигерц(а) (мГц)</option>
+            </select>(В СИ - Гц)
+        </div>&nbsp;&nbsp;&nbsp;<button id="freq_del" class="blocks">Очистить</button></div>
+        
+        <br>
+        <div class="h-block"><div class="blocks">
+            Время t &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input type="text" id="time">
+            <select id="time_izm">
+                <option value="d">день(дня, дней)</option>
+                <option value="h">час(а, ов)</option>
+                <option value="m">минут(а, ы)</option>
+                <option value="s" autofocus>секунд(а, ы) (с)</option>
+            </select> (В СИ - с)
+        </div>&nbsp;&nbsp;&nbsp;<button id="time_del" class="blocks">Очистить</button></div>
+        
+        <br>
+        <div class="h-block"><div class="blocks">
+            Количество N &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;<input type="text" id="kolvo">
+        </div>&nbsp;&nbsp;&nbsp;<button id="kolvo_del" class="blocks">Очистить</button></div>
+        <br>
+        <div class="h-block"><div class="blocks">
+            <input type="checkbox" id="si"> Вывод в СИ
+            
+        </div>&nbsp;&nbsp;&nbsp;<button id="results" class="blocks">Посчитать</button></div>
+    </div>
+    <script src="../scripts/freq.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Phyrmularics - формулы тут</title>
+</head>
+<body>
+    <div id="menu">
+        <img src="../logo.png"/>
+        <button id="main-butt" class="mb" onclick="window.location.href='../index.html'">Главная</button>
+        <button id="list-butt" class="mb" onclick="window.location.href='../list.html'">Список формул</button>
+        <button class="mb" id="about-butt" onclick="window.location.href='../about.html'">О сайте</button>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <div id="main">
+        <div class="h-block">
+            <div class="blocks" style="height:300px">
+                &nbsp;&nbsp;Путь s &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="moving"> (В СИ - м)
+            <select id="moving-izm">
+                <option value="km">километр(а, ов) (км)</option>
+                <option value="m" autofocus="true">метр(a, ов) (м)</option>
+                <option value="cm">сантиментр(а, ов) (см)</option>
+                <option value="mm">миллиметра(а, ов) (мм)</option>
+            </select><br><input type="checkbox" id="not_ds">Не дано
+            </div>
+            &nbsp;&nbsp;<button id="moving_del" class="blocks"  style="height:300px">Очистить</button>
+        </div>
+        <br>
+        <div class="h-block"><div class="blocks">
+            Начальная скорость V₀ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="speed0"> (В СИ - м/с) <input type="checkbox" id="not_dv0"> Не дано
+            
+        </div>&nbsp;&nbsp;&nbsp;<button id="speed0_del" class="blocks">Очистить</button></div>
+        <br>
+        <div class="h-block"><div class="blocks">
+            Конечная скорость V &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="speed"> (В СИ - м/с) <input type="checkbox" id="not_dv"> Не дано
+            
+        </div>&nbsp;&nbsp;&nbsp;<button id="speed_del" class="blocks">Очистить</button></div>
+        
+        <br>
+        <div class="h-block"><div class="blocks">
+            Ускорение a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="ac"> (В СИ - м/с²) <input type="checkbox" id="not_da"> Не дано
+        </div>&nbsp;&nbsp;&nbsp;<button id="ac_del" class="blocks">Очистить</button></div>
+        
+        <br>
+        <div class="h-block"><div class="blocks">
+            Время t &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="time">
+            <select id="time-izm">
+                <option value="d">день(дня, дней)</option>
+                <option value="h">час(а, ов)</option>
+                <option value="m">минут(а, ы)</option>
+                <option value="s" autofocus>секунд(а, ы) (с)</option>
+            </select> (В СИ - с) <input type="checkbox" id="not_dt"> Не дано 
+        </div>&nbsp;&nbsp;&nbsp;<button id="time_del" class="blocks">Очистить</button></div>
+        
+        <br>
+        <div class="h-block" style="height:300px"><div class="blocks" style="height:500px">
+            
+            <input type="checkbox" id="not_ss"> Без начальной скорости (V₀ = 0)<br>
+            <input type="checkbox" id="not_fs"> Без конечной скорости (V = 0)<br>
+            <select id="moving_type">
+            <option value="rm">Равномерно</option>
+            <option value="ry">Равноускоренно</option>
+            <option value="rz">Равнозамедленно</option>
+            </select>
+            <input type="checkbox" id="si"> Вывод в СИ
+            
+        
+    </div>&nbsp;&nbsp;&nbsp;<button id="results" class="blocks" style="height:500px">Посчитать</button></div>
+        
+        
+    </div>
+    <script src="../scripts/moving.js"></script>
+</body>
+</html>
