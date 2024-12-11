@@ -63,7 +63,7 @@ select {
 #main {
     display: inline-block;
     text-align: center;
-    width: 100%;
+    width: 80%;
 }
 button:not(.mb){
     font-size: 20px;
