@@ -94,7 +94,7 @@ a {
 }
 }
 
-@media screen and (max-width:760px) { 
+@media screen and (max-width:1200px) { 
 #menu {
     background-color: #ffffff;
     display: flex;
