@@ -159,7 +159,7 @@ select {
 #main {
     display: inline-block;
     text-align: center;
-    width: 90%;
+    width: 95%;
 }
 button:not(.mb){
     font-size: 20px;
