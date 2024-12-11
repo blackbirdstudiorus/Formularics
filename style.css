@@ -153,13 +153,13 @@ select {
     height:145px;
     vertical-align: middle;
     line-height: 145px;
-    width:90%;
+    width:69%;
     font-size: 20px;
 }
 #main {
     display: inline-block;
     text-align: center;
-    width: 100%;
+    width: 80%;
 }
 button:not(.mb){
     font-size: 20px;
@@ -171,8 +171,8 @@ button:not(.mb){
     font-size: 20px;
 }
 input[type="checkbox"] {
-    accent-color: #000000;
-    color: #000000;
+    accent-color: #D3D3D3;
+    color: #D3D3D3;
     cursor: pointer;
 }
 .lister {
