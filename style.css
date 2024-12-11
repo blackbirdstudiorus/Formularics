@@ -153,7 +153,7 @@ select {
     height:145px;
     vertical-align: middle;
     line-height: 145px;
-    width:74%;
+    width:79%;
     font-size: 20px;
 }
 #main {
@@ -163,7 +163,7 @@ select {
 }
 button:not(.mb){
     font-size: 20px;
-    width:25%;
+    width:20%;
 }
 .h-block{
     white-space: nowrap;
