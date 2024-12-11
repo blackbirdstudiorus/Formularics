@@ -1,4 +1,5 @@
-#menu {
+@media screen and (min-width:400px){
+    #menu {
     background-color: #ffffff;
     display: flex;
     position: fixed;
@@ -90,4 +91,101 @@ a {
     background-color: #ffffff;
     border-radius: 30px;
     font-size: 20px;
+}
+}
+
+@media (max-width:399px) { 
+#menu {
+    background-color: #ffffff;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+img {
+    width: 24%;
+    height: 24%;
+}
+button {
+    width: 25%;
+    height: 145px;
+    margin: auto;
+    border: none;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-family: "ArialRounded";
+    left: 10px;
+}
+button:active {
+    background-color: #D3D3D3;
+}
+body {
+    background-color: #D3D3D3;
+    font-family: "ArialRounded";
+    text-align: center;
+}
+@font-face {
+    font-family: "ArialRounded";
+    src: url(font.otf);
+}
+input {
+    font-family: "ArialRounded";
+    width:200px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #D3D3D3;
+}
+select {
+    font-family: "ArialRounded";
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #D3D3D3;
+}
+.blocks {
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: inline-block;
+    width:auto;
+    height:145px;
+    vertical-align: middle;
+    line-height: 145px;
+    width:90%;
+    font-size: 20px;
+}
+#main {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+button:not(.mb){
+    font-size: 20px;
+    width:30%;
+}
+.h-block{
+    white-space: nowrap;
+    width:100%;
+    font-size: 20px;
+}
+input[type="checkbox"] {
+    accent-color: #D3D3D3;
+    color: #000000;
+    cursor: pointer;
+}
+.lister {
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-size: 20px;
+}
+a {
+    color:#000000;
+}
+.main {
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-size: 20px;
+}
 }
