@@ -1,4 +1,4 @@
-@media screen and (min-width:800px){
+@media screen and (min-width:760px){
     #menu {
     background-color: #ffffff;
     display: flex;
@@ -94,7 +94,7 @@ a {
 }
 }
 
-@media screen and (max-width:399px) { 
+@media screen and (max-width:760px) { 
 #menu {
     background-color: #ffffff;
     display: flex;
