@@ -156,18 +156,18 @@ select {
     height:145px;
     vertical-align: middle;
     line-height: 145px;
-    width:79%;
+    width:84%;
     font-size: 20px;
     white-space: normal;
 }
 #main {
     display: inline-block;
     text-align: center;
-    width: 95%;
+    width: 100%;
 }
 button:not(.mb){
     font-size: 20px;
-    width:20%;
+    width:15%;
 }
 .h-block{
     white-space: nowrap;
