@@ -50,14 +50,14 @@ select {
     background-color: #D3D3D3;
 }
 .blocks {
-    background-color: #bbbbbb;
+    background-color: #ffffff;
     border-radius: 30px;
     display: inline-block;
     width:auto;
     height:145px;
     vertical-align: middle;
     line-height: 145px;
-    width:90%;
+    width:69%;
     font-size: 20px;
 }
 #main {
@@ -71,7 +71,7 @@ button:not(.mb){
 }
 .h-block{
     white-space: nowrap;
-    width:100%;
+    width:80%;
     font-size: 20px;
 }
 input[type="checkbox"] {
